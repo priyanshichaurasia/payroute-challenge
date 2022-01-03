@@ -146,6 +146,10 @@ nav li a:hover {
   margin-left: 22%;
   padding-bottom: 11%;
 }
+.box1-h3 {
+  color: skyblue;
+  padding-top: 90px;
+}
 .butn {
   padding: 7px 80px;
   border: 2px solid #3489e3;
@@ -158,6 +162,9 @@ nav li a:hover {
   width: 30%;
   margin-left: 51%;
   margin-bottom: -30%;
+}
+.earth-p {
+  padding: 10px;
 }
 button:hover {
   background-color: #4d808b;
@@ -194,9 +201,16 @@ button:hover {
   margin-left: 51%;
   margin-bottom: -32%;
 }
+.dress-h3 {
+  color: skyblue;
+  padding-top: 90px;
+}
+.dress-p {
+  padding: 10px;
+}
 .pay-pic {
   margin-left: 11%;
-  margin-bottom: -25%;
+  margin-bottom: -23%;
   width: 29%;
   padding-top: 40px;
 }
@@ -209,9 +223,16 @@ button:hover {
   margin-left: 40%;
 }
 .lockpic {
-  width: 30%;
-  margin-left: 51%;
-  margin-bottom: -32%;
+  width: 35%;
+  margin-left: 55%;
+  margin-bottom: -35%;
+}
+.lock-p {
+  padding: 10px;
+}
+.lock-h3 {
+  color: skyblue;
+  padding-top: 90px;
 }
 .box3 {
   background-color: whitesmoke;
@@ -258,6 +279,149 @@ button:hover {
   margin-left: 28px;
   color: darkgrey;
   font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+  /* tablet version css */
+  .mobile-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #togglebar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .video-class {
+    width: 101%;
+    height: 50%;
+  }
+
+  .line {
+    width: 100%;
+    height: 100%;
+    margin: -45px 0 0 0;
+  }
+
+  .line .h4 {
+    text-align: center !important;
+    font-weight: 550 !important;
+    font-size: xx-large !important;
+    line-height: 1.1 !important;
+  }
+
+  #btn {
+    margin-left: 20.5em !important;
+    margin-top: 15px !important;
+    top: 0 !important;
+    position: relative !important;
+  }
+
+  .business-class {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(20, 20, 85);
+  }
+
+  .business-class button {
+    margin-bottom: 10px;
+  }
+
+  .business-class .h4 {
+    margin-top: 40px !important;
+    margin-bottom: 0.5rem !important;
+    font-weight: 300 !important;
+    line-height: 1.2 !important;
+  }
+
+  .box1 {
+    background-color: white;
+    margin-left: 5%;
+    padding-bottom: 10%;
+  }
+  .box2 {
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+  }
+  .box3 {
+    background-color: whitesmoke;
+    padding-bottom: 5%;
+  }
+  .box1-h3 {
+    color: skyblue;
+    padding-top: 25px;
+    float: left;
+  }
+  .earth {
+    width: 60vh;
+    margin-left: 60%;
+    margin-bottom: -32%;
+  }
+  .earth-p {
+    margin-right: 340px;
+    padding: 8px;
+  }
+  .fly-gif {
+    margin-left: -5%;
+    margin-bottom: -38%;
+    width: 100vh;
+  }
+
+  .dress-gif {
+    width: 50%;
+    margin-left: 45%;
+    margin-bottom: -50%;
+  }
+  .dress-h3 {
+    color: skyblue;
+    padding-top: 30px;
+    float: left;
+  }
+  .dress-p {
+    padding: 10px;
+    margin-right: 50%;
+  }
+  .pay-pic {
+    margin-left: 0%;
+    margin-bottom: -40%;
+    width: 36%;
+  }
+  .pay-p {
+    margin-left: 32%;
+  }
+  .flyhead {
+    color: skyblue;
+    margin-left: 33%;
+  }
+  .flylines {
+    padding: 10px;
+    margin-left: 32%;
+  }
+  .lockpic {
+    width: 30%;
+    margin-left: 66%;
+    margin-bottom: -32%;
+  }
+  .lock-p {
+    padding: 10px;
+    margin-right: 50%;
+  }
+  .lock-h3 {
+    color: skyblue;
+    padding-top: 15px;
+  }
+  .hr {
+    border-bottom: 2px solid darkgray !important;
+    margin-left: 72px;
+    margin-right: 18px;
+  }
 }
 
 @media screen and (max-width: 451px) {
@@ -333,12 +497,20 @@ button:hover {
     background-color: whitesmoke;
     padding-bottom: 5%;
   }
+  .box1-h3 {
+    color: skyblue;
+    padding-top: 90px;
+  }
   .earth {
     width: 50%;
     margin-left: 10%;
     margin-top: 10px;
-    margin-bottom: -29%;
+    margin-bottom: -22%;
   }
+  .earth-p {
+    margin-right: 0px;
+    padding: 8px;
+}
   .fly-gif {
     margin-left: 25%;
     margin-bottom: -2%;
@@ -361,14 +533,18 @@ button:hover {
     margin-left: 20%;
   }
   .dress-gif {
-    width: 50%;
-    margin-left: 12%;
-    margin-bottom: -28%;
+    width: 60%;
+    margin-left: 0%;
+    margin-bottom: -5%;
+  }
+  .dress-p {
+    padding: 10px;
+    margin-right: -2px;
   }
   .pay-pic {
-    margin-left: 41%;
+    margin-left: 30%;
     margin-bottom: -5%;
-    width: 50%;
+    width: 45%;
     padding-top: 40px;
   }
   .pay-p {
@@ -378,15 +554,28 @@ button:hover {
   .lockpic {
     width: 50%;
     margin-left: 15%;
-    margin-bottom: -24%;
+    margin-bottom: 2%;
   }
-
+  .lock-p {
+    padding: 10px;
+    margin-right: 0px;
+  }
+  .butn {
+  padding: 7px 60px;
+  border: 2px solid #3489e3;
+  color: #3489e3;
+  background-color: white;
+  border-radius: 50px;
+  cursor: pointer;
+}
+  
   .footer {
     display: none;
   }
   .footer-mobile {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
@@ -399,7 +588,6 @@ button:hover {
     text-align: center;
     color: #3489e3;
     padding: 30px !important;
-    /* padding-bottom: 30px; */
     font-weight: 300 !important;
   }
 
@@ -413,7 +601,6 @@ button:hover {
     text-align: center;
     color: white;
     font-weight: 400;
-    /* font-size: xx-large; */
     padding: 41px;
   }
 
@@ -425,33 +612,23 @@ button:hover {
     border-radius: 50px;
     cursor: pointer;
     margin-left: 4.5em !important;
-    /* margin-top: 0.4rem; */
   }
 
   .footer-bottom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    padding: 50px;
+    padding-top: 10px;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .foot {
     list-style: none;
-    display: flex;
-    /* margin-left: 15%; */
-    /* margin-bottom: 0; */
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 30px;
+    margin-bottom: -10px;
   }
-
-  /* .foot ul {
-    -moz-column-count: 4 !important;
-    -moz-column-gap: 20px !important;
-    -webkit-column-count: 4 !important;
-    -webkit-column-gap: 20px !important;
-    column-count: 4 !important;
-    column-gap: 20px !important;
-  } */
 
   .list1 {
     font-size: 12px;
@@ -467,7 +644,16 @@ button:hover {
 
   .hr {
     border-bottom: 2px solid darkgray !important;
-    margin-left: 171px;
-    margin-right: 184px;
+    margin-left: 72px;
+    margin-right: 18px;
+  }
+  .footlast {
+    margin-left: 4%;
+  }
+  .list3 {
+    font-size: 12px;
+    margin-left: 28px;
+    color: darkgrey;
+    font-family: "Roboto", sans-serif;
   }
 }
